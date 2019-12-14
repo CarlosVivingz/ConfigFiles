@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+source ~/Documents/.execs/.virtual
+
+workon venv
+
+jupyter notebook & 
+
+disown 
+
+exit
+
